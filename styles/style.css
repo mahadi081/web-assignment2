@@ -7,6 +7,17 @@
 }
 
 
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style  */
+
 
 
 
@@ -39,7 +50,7 @@ body{
 }
 
 .nav-menu a.active{
-    font-size: Bold;
+    font-weight: bold;
     width: 46px;
     color: rgba(37, 36, 50, 1);
 }
@@ -47,3 +58,58 @@ body{
     color: rgba(0, 0, 0, 1);
 }
 
+
+/* banner section  */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 150px;
+  flex-wrap: wrap;
+}
+.hero-text {
+  flex: 1;
+  margin: auto;
+  width: 570px;
+  height: 178px;
+}
+
+
+
+.bold {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  font-size: 65px;
+
+
+  
+}
+.highlight {
+  font-weight: bold;
+  color: rgba(233, 90, 8, 1);
+  font-size: 65px;
+}
+
+.pera{
+  
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  text-align: center;
+  
+  margin-top: auto;
+  
+}
+
+.hero-image img {
+  max-width: 100%;
+  margin-top: 226px;  
+
+}
