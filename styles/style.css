@@ -371,24 +371,26 @@ body{
     
     
   }
+  
 
 
   .text-content h1 {
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    font-size: 24px;
   }
 
   .text-content ul{
     gap: 16px;
+    text-align: left;
   }
 
   .text-content li {
     color: rgba(0, 0, 0, 0.5);
     font-weight: regular;
     
-    font-size: 22px;
+    font-size: 14px;
   }
 }
 
