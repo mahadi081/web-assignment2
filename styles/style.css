@@ -345,10 +345,73 @@ body{
     border-radius: 22px;
 }
 
+/* bacground img section  */
+.subscribe-section {
+  background-image: url('/images/news-letter-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+
+.background {
+  
+
+  padding: 199px 193px 305px;
+  border-radius: 10px;
+  color: white;
+  max-width: 90%;
+  width: 100%;
+}
+
+.background h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 23px;
+  font-weight: bold;
+}
+
+.subscribe-form {
+  display: flex;
+
+  
+  gap: 0px;
+}
+
+.subscribe-form input {
+  padding: 12px;
+  border: none;
+
+  font-size: 16px;
+  width: 100%;
+}
+
+.subscribe-form button {
+  padding: 12px;
+  border: none;
+  
+  background-color: rgba(233, 90, 8, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
 
 
 /* responsive navbar  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .res{
     display: none;
   }
@@ -413,7 +476,7 @@ body{
 
 
 /* responsive banner*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .product-grid {
     grid-template-columns: repeat(2,1fr);
 
@@ -439,7 +502,7 @@ body{
 
 /* section style  response*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .section {
     flex-direction: column;
     justify-content: center;
@@ -493,7 +556,7 @@ body{
 }
 
 /* deal section response  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .deals-grid {
     padding-left: 0px;
     margin-left: 10px;
@@ -555,6 +618,30 @@ body{
 
 
 
+}
+
+ /* background response  */
+@media  screen and (max-width:480px){
+
+    .subscribe-section{
+        width:393px;
+        height: 275px;
+        padding: 0px;
+        margin: 0px;
+        
+
+    }
+    .background{
+        padding: 0px;
+    }
+    .background h2{
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
 }
 
 
