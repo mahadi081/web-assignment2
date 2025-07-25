@@ -347,7 +347,7 @@ body{
 
 /* bacground img section  */
 .subscribe-section {
-  background-image: url('/images/news-letter-bg.png'); 
+  background-image: url('../images/news-letter-bg.png'); 
   background-size: cover;
   background-position: center;
   height: 100vh;
