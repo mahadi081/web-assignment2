@@ -243,9 +243,107 @@ body{
   color: rgba(0, 0, 0, 0.5);
   
 }
+/* deal section style  */
+
+.deals-section {
+  padding: 150px 120px;
+  text-align: center;
+}
 
 
+.deals-section h2  {
+  font-size: 50px;
+  font-weight: bold;
+  
+}
 
+.highlight {
+    font-size:50px;
+    font-weight: bold;
+    color: rgba(233, 90, 8, 1);
+}
+
+.description {
+  
+  
+  margin: 0 auto 40px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+
+/* Grid Layout */
+.deals-grid {
+
+  display: flex;
+  max-width: 1140px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.deal-left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex: 1 1 250px;
+  width: 367px;
+  height: 423px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay h3 {
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overlay a {
+  font-weight: 800;
+  font-size: 16px; 
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 1);
+  
+  text-decoration: underline;
+}
+
+.large-card {
+  flex: 1 1 500px;
+  max-width: 600px;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  
+}
+.large-card img{
+    border-radius: 22px;
+}
 
 
 
@@ -392,6 +490,71 @@ body{
     
     font-size: 14px;
   }
+}
+
+/* deal section response  */
+@media screen and (max-width: 768px) {
+  .deals-grid {
+    padding-left: 0px;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+   
+  
+    
+
+  }
+  .deals-section{
+    
+    padding: 50px 16px;
+    gap: 20px;
+  }
+  .deals-section h2{
+    font-size: 24px;
+  }
+  .description{
+    font-size: 14px;
+    width: 336px;
+    height: 68px;
+  }
+
+  .deal-left {
+    max-width: 100%;
+  }
+  .large-card img{
+    width: 361px;
+    height: 172px;
+    margin: 0px;
+  
+    align-items: center;
+    
+    
+    
+    
+  }
+  .card{
+   
+   width: 361px;
+   height: 172px;
+   
+   
+  }
+
+  .large-card {
+    max-width: 100%;
+    
+    
+    
+     
+  }
+
+  .overlay h3 {
+    font-size: 20px;
+  }
+
+
+
 }
 
 
